@@ -45,9 +45,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.selectFrom = new System.Windows.Forms.TextBox();
-            this.WriteTo = new System.Windows.Forms.TextBox();
             this.button9 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
@@ -90,7 +87,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(277, 611);
+            this.button3.Location = new System.Drawing.Point(244, 535);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(189, 34);
             this.button3.TabIndex = 4;
@@ -204,31 +201,6 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "num1 + num2";
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(41, 496);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(177, 28);
-            this.button8.TabIndex = 17;
-            this.button8.Text = "selecting a text";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // selectFrom
-            // 
-            this.selectFrom.Location = new System.Drawing.Point(244, 504);
-            this.selectFrom.Name = "selectFrom";
-            this.selectFrom.Size = new System.Drawing.Size(171, 20);
-            this.selectFrom.TabIndex = 18;
-            // 
-            // WriteTo
-            // 
-            this.WriteTo.Location = new System.Drawing.Point(452, 504);
-            this.WriteTo.Name = "WriteTo";
-            this.WriteTo.Size = new System.Drawing.Size(171, 20);
-            this.WriteTo.TabIndex = 19;
-            this.WriteTo.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(546, 167);
@@ -254,9 +226,6 @@
             this.ClientSize = new System.Drawing.Size(800, 721);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.WriteTo);
-            this.Controls.Add(this.selectFrom);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -301,9 +270,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox selectFrom;
-        private System.Windows.Forms.TextBox WriteTo;
         private System.Windows.Forms.Button button9;
         public System.Windows.Forms.ListBox listBox1;
     }

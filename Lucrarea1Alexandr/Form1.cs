@@ -87,15 +87,6 @@ namespace Lucrarea1Alexandr
             }
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "Hello World";
-            textBox1.Select(0, 5);
-            MessageBox.Show(textBox1.SelectedText);
-            WriteTo.Select(6, 5);
-            WriteTo.Text = WriteTo.SelectedText;
-        }
-
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
